@@ -74,3 +74,12 @@ def format_drift_alert(result: dict) -> str:
         f"الإجراء: <b>{result['action']}</b>\n\n"
         f"التفاصيل:\n{result['per_feature']}"
     )
+def format_health_report(checks: dict) -> str:
+    rows = "\n".join(
+        f" {'✅' if v else '❌'} {k}"
+        for k, v in checks.items()
+    )
+    return (
+        "<b>🏥 فحص الصحة</b>\n"
+        f"────────────────────\n{rows}"
+    )
