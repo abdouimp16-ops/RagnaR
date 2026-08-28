@@ -67,3 +67,25 @@ MACRO_BLOCK_HOURS_AFTER = 2
 DATA_DIR = "data"
 REGISTRY_DIR = os.path.join(DATA_DIR, "registry")
 DB_PATH = os.path.join(DATA_DIR, "apex.db")
+SYMBOLS = [
+    "BTC/USDT",
+    "ETH/USDT",
+    "SOL/USDT",
+    "BNB/USDT",
+    "XRP/USDT",
+    "ADA/USDT",
+    "AVAX/USDT",
+    "LINK/USDT",
+    "DOGE/USDT",
+    "TON/USDT",
+    "DOT/USDT",
+    "NEAR/USDT",
+    "ARB/USDT",
+    "OP/USDT",
+    "INJ/USDT",
+    "SUI/USDT",
+    "APT/USDT",
+    "LTC/USDT",
+    "ATOM/USDT",
+    "FIL/USDT",
+]
