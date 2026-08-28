@@ -4,7 +4,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import config
 from data import fetch_ohlcv
-from indicators import enrich
+from quant import enrich
 from microstructure import collect_micro
 from strategy_apex import compute_rule_score, build_features, classify_conviction, rank_candidates
 from ensemble import CalibratedEnsemble
